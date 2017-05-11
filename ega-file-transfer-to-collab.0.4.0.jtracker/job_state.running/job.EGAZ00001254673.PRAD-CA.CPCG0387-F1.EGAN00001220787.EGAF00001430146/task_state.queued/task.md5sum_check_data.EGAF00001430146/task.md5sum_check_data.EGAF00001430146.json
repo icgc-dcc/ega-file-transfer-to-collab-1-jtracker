@@ -1,0 +1,16 @@
+{
+  "task": "md5sum_check_data", 
+  "depends_on": [
+    "completed@download.EGAF00001430146@same_host"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "input": {
+    "file_name": "{{file_name@download.EGAF00001430146}}", 
+    "file_md5sum": "af2d9c4688d51f8b5fa7d453b3745e17", 
+    "file": "{{file@download.EGAF00001430146}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
