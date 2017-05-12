@@ -1,0 +1,25 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.", 
+    "completed@generate_bai."
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": "{{file_size@generate_bai.}}", 
+    "idx_file_md5sum": "{{file_md5sum@generate_bai.}}", 
+    "file_name": "{{file_name@decryption.}}", 
+    "idx_file": "{{file@generate_bai.}}", 
+    "object_id": "3d3636b1-a0dc-58e5-b7e2-b55d00901635", 
+    "file_md5sum": "{{file_md5sum@decryption.}}", 
+    "file": "{{file@decryption.}}", 
+    "file_size": "{{file_size@decryption.}}", 
+    "bundle_id": "EGAZ00001084284", 
+    "idx_object_id": "{{bai_object_id@generate_bai.}}", 
+    "idx_file_name": "{{file_name@generate_bai.}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

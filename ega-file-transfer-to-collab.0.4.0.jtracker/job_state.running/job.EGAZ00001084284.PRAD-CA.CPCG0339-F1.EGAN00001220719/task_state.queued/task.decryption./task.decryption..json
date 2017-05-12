@@ -1,0 +1,20 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@md5sum_check_data.", 
+    "completed@download."
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "input": {
+    "input_file": "{{file@download.}}", 
+    "file_name": "{{file_name@download.}}", 
+    "ega_file_id": "{{ega_file_id@download.}}", 
+    "object_id": "{{object_id@download.}}", 
+    "file_md5sum": "{{file_md5sum@download.}}", 
+    "file_size": "{{file_size@download.}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

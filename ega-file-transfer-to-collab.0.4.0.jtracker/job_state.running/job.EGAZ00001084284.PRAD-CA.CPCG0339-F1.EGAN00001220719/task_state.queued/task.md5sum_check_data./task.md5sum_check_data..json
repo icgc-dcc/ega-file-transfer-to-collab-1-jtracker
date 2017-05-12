@@ -1,0 +1,16 @@
+{
+  "task": "md5sum_check_data", 
+  "depends_on": [
+    "completed@download.@same_host"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "input": {
+    "file_name": "{{file_name@download.}}", 
+    "file_md5sum": "e535d36c67d4675f9579b44f8c3ca592", 
+    "file": "{{file@download.}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
