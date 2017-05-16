@@ -6,6 +6,12 @@
   ], 
   "tool": "generate_bai", 
   "command": "generate_bai.py", 
+  "output": [
+    {
+      "worker_id": "worker.1494876846.6775ce43.host.5693bdde.10.10.0.213", 
+      "task_state": "failed"
+    }
+  ], 
   "input": {
     "bam_file": "/db1/jtracker_home/worker.1494876846.6775ce43.host.5693bdde.10.10.0.213/job.EGAZ00001224627.PRAD-CA.CPCG0123-F1.EGAN00001220617/task.decryption.EGAF00001214026/4eb81aff975e6b05be929c7cc15cc70b.CPCG0123-F1.bam", 
     "idx_object_id": "8bcaf808-c4dc-55b7-b826-2f28bea35071", 
