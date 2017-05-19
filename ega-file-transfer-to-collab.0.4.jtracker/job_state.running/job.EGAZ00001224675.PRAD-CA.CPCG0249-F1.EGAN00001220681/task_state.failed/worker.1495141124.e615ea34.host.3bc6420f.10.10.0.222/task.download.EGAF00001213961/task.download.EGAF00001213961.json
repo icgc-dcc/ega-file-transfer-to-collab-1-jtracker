@@ -3,6 +3,12 @@
   "depends_on": null, 
   "tool": "download", 
   "command": "download.py", 
+  "output": [
+    {
+      "worker_id": "worker.1495141124.e615ea34.host.3bc6420f.10.10.0.222", 
+      "task_state": "failed"
+    }
+  ], 
   "input": {
     "file_name": "29ea8fbad57991abd0f1812acceb92bf.CPCG0249-F1.bam", 
     "file_md5sum": "29ea8fbad57991abd0f1812acceb92bf", 
