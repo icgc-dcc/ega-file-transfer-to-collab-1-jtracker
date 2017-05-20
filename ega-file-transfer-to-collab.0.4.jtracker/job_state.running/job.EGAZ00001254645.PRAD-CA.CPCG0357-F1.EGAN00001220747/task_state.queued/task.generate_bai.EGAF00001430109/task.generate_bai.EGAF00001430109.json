@@ -1,0 +1,17 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00001430109", 
+    "completed@md5sum_check_decrypt.EGAF00001430109"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "input": {
+    "bam_file": "{{file@decryption.EGAF00001430109}}", 
+    "idx_object_id": "a03e3317-a430-5fca-b808-8ece45e3e78e", 
+    "idx_file_name": "11125f28c1110a9bbe0e2f2a852b6424.CPCG0357-F1.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
