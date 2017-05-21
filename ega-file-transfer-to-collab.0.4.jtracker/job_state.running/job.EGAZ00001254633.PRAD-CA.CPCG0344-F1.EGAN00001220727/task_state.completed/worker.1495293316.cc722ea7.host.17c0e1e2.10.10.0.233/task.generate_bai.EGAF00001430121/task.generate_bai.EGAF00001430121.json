@@ -1,0 +1,32 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00001430121", 
+    "completed@md5sum_check_decrypt.EGAF00001430121"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "output": [
+    {
+      "idx_file_size": 9099768, 
+      "idx_file_md5sum": "eea78cb52291678f746b539955e8d9c1", 
+      "idx_file": "/home/ubuntu/jtracker/worker.1495293316.cc722ea7.host.17c0e1e2.10.10.0.233/job.EGAZ00001254633.PRAD-CA.CPCG0344-F1.EGAN00001220727/task.generate_bai.EGAF00001430121/53cb27f47a9ccb1e9a7cebaefcd4571f.CPCG0344-F1.bam.bai", 
+      "worker_id": "worker.1495293316.cc722ea7.host.17c0e1e2.10.10.0.233", 
+      "task_state": "completed", 
+      "idx_object_id": "d80785e4-1a6f-5cfd-ace3-378d250ced41", 
+      "runtime": {
+        "task_start": 1495353855, 
+        "task_stop": 1495359006
+      }, 
+      "idx_file_name": "53cb27f47a9ccb1e9a7cebaefcd4571f.CPCG0344-F1.bam.bai"
+    }
+  ], 
+  "input": {
+    "bam_file": "/home/ubuntu/jtracker/worker.1495293316.cc722ea7.host.17c0e1e2.10.10.0.233/job.EGAZ00001254633.PRAD-CA.CPCG0344-F1.EGAN00001220727/task.decryption.EGAF00001430121/53cb27f47a9ccb1e9a7cebaefcd4571f.CPCG0344-F1.bam", 
+    "idx_object_id": "d80785e4-1a6f-5cfd-ace3-378d250ced41", 
+    "idx_file_name": "53cb27f47a9ccb1e9a7cebaefcd4571f.CPCG0344-F1.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
