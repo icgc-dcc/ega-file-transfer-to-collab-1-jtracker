@@ -1,0 +1,16 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "input": {
+    "file_name": "91c7c3cbe3791b2a74b2b59612d1e1a8.CPCG0102-F1.bam", 
+    "file_md5sum": "91c7c3cbe3791b2a74b2b59612d1e1a8", 
+    "project_code": "PRAD-CA", 
+    "object_id": "920e436f-7f52-553b-9456-d79b763ccdd3", 
+    "ega_file_id": "EGAF00001214018"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
