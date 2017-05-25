@@ -3,6 +3,12 @@
   "depends_on": null, 
   "tool": "download", 
   "command": "download.py", 
+  "output": [
+    {
+      "worker_id": "worker.1495573611.896b00ab.host.2e49fc31.10.10.0.242", 
+      "task_state": "failed"
+    }
+  ], 
   "input": {
     "file_name": "f79dfb81cbbc9a02ea0cfce159815497.CHC1082T.sorted.bam", 
     "file_md5sum": "f79dfb81cbbc9a02ea0cfce159815497", 
