@@ -3,6 +3,12 @@
   "depends_on": null, 
   "tool": "download", 
   "command": "download.py", 
+  "output": [
+    {
+      "worker_id": "worker.1495834031.ca25a2ed.host.bf6252ab.10.0.0.145", 
+      "task_state": "failed"
+    }
+  ], 
   "input": {
     "file_name": "9196e1b8de9d5d3c2033bdb65191573c.CPCG_0249_Pr_P_PE_624_WG_130823_SN804_0129_BD2BKLACXX_1_NoIndex_R1.fastq.gz", 
     "file_md5sum": "9196e1b8de9d5d3c2033bdb65191573c", 
