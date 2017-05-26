@@ -1,0 +1,31 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "file_name": "2c9219d2505117cee4cf10cbb8179b45.CHC1089T.sorted.bam", 
+      "ega_file_id": "EGAF00000691111", 
+      "object_id": "56dbf9ec-2b16-567c-80c9-a22d47af9ddf", 
+      "file_md5sum": "2c9219d2505117cee4cf10cbb8179b45", 
+      "worker_id": "worker.1495573611.896b00ab.host.2e49fc31.10.10.0.242", 
+      "file": "/home/ubuntu/jtracker/worker.1495573611.896b00ab.host.2e49fc31.10.10.0.242/job.EGAR00001266306.LIHM-FR.CHC1089T.EGAN00001236038/task.download.EGAF00000691111/2c9219d2505117cee4cf10cbb8179b45.CHC1089T.sorted.bam", 
+      "runtime": {
+        "task_start": 1495826056, 
+        "task_stop": 1495826654
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "2c9219d2505117cee4cf10cbb8179b45.CHC1089T.sorted.bam", 
+    "file_md5sum": "2c9219d2505117cee4cf10cbb8179b45", 
+    "project_code": "LIHM-FR", 
+    "object_id": "56dbf9ec-2b16-567c-80c9-a22d47af9ddf", 
+    "ega_file_id": "EGAF00000691111"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
