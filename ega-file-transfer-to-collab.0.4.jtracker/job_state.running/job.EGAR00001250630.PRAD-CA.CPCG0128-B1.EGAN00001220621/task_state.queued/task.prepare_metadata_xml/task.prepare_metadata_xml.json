@@ -1,0 +1,21 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170522", 
+    "ega_metadata_file_name": "bundle.EGAR00001250630.xml", 
+    "ega_study_id": "EGAS00001000900", 
+    "ega_dataset_id": "EGAD00001001094", 
+    "ega_sample_id": "EGAN00001220621", 
+    "ega_expriment_id": null, 
+    "ega_analysis_id": null, 
+    "bundle_id": "EGAR00001250630", 
+    "project_code": "PRAD-CA", 
+    "ega_run_id": "EGAR00001250630"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
