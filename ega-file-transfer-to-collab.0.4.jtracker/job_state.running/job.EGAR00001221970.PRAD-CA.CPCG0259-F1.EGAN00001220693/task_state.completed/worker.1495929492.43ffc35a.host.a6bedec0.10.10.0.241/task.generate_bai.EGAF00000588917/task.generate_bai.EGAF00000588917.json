@@ -6,6 +6,17 @@
   ], 
   "tool": "generate_bai", 
   "command": "generate_bai.py", 
+  "output": [
+    {
+      "task_info": "skip the bai generation!", 
+      "worker_id": "worker.1495929492.43ffc35a.host.a6bedec0.10.10.0.241", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1495986468, 
+        "task_stop": 1495986468
+      }
+    }
+  ], 
   "input": {
     "bam_file": "/home/ubuntu/jtracker/worker.1495929488.9d633b18.host.a6bedec0.10.10.0.241/job.EGAR00001221970.PRAD-CA.CPCG0259-F1.EGAN00001220693/task.decryption.EGAF00000588917/d15752cce62b3e9b3aa40c496fd710e6.CPCG_0259_Pr_P_PE_663_WG_130828_SN802_0133_AC2D90ACXX_1_NoIndex_R2.fastq.gz", 
     "idx_object_id": null, 
