@@ -1,0 +1,31 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "file_name": "6fcf5abd5ebf37d8855230e9b3b50ff4.CPCG_0368_Pr_P_PE_632_WG_131029_h803_0152_AC2LAHACXX_7_NoIndex_R1.fastq.gz", 
+      "ega_file_id": "EGAF00000663136", 
+      "object_id": "4962fff7-cd30-55f2-9c46-feea0d458ee4", 
+      "file_md5sum": "6fcf5abd5ebf37d8855230e9b3b50ff4", 
+      "worker_id": "worker.1495929488.9d633b18.host.a6bedec0.10.10.0.241", 
+      "file": "/home/ubuntu/jtracker/worker.1495929488.9d633b18.host.a6bedec0.10.10.0.241/job.EGAR00001254566.PRAD-CA.CPCG0368-F1.EGAN00001220765/task.download.EGAF00000663136/6fcf5abd5ebf37d8855230e9b3b50ff4.CPCG_0368_Pr_P_PE_632_WG_131029_h803_0152_AC2LAHACXX_7_NoIndex_R1.fastq.gz", 
+      "runtime": {
+        "task_start": 1495979931, 
+        "task_stop": 1495982245
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "6fcf5abd5ebf37d8855230e9b3b50ff4.CPCG_0368_Pr_P_PE_632_WG_131029_h803_0152_AC2LAHACXX_7_NoIndex_R1.fastq.gz", 
+    "file_md5sum": "6fcf5abd5ebf37d8855230e9b3b50ff4", 
+    "project_code": "PRAD-CA", 
+    "object_id": "4962fff7-cd30-55f2-9c46-feea0d458ee4", 
+    "ega_file_id": "EGAF00000663136"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
