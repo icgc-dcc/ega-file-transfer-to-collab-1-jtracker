@@ -1,0 +1,25 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000663099", 
+    "completed@generate_bai.EGAF00000663099"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": null, 
+    "idx_file_md5sum": null, 
+    "file_name": "eda234210bb83b8290cbf1fab450709a.CPCG_0363_Pr_P_PE_691_WG_130906_SN203_0196_AC2D4DACXX_1_NoIndex_R2.fastq.gz", 
+    "idx_file": null, 
+    "object_id": "2b18d9e9-cd11-57e7-87f4-5d278c634aa9", 
+    "file_md5sum": "eda234210bb83b8290cbf1fab450709a", 
+    "file": "/data/jt_home/worker.1495902583.a1b04ba7.host.bf6252ab.10.0.0.145/job.EGAR00001254560.PRAD-CA.CPCG0363-F1.EGAN00001220757/task.decryption.EGAF00000663099/eda234210bb83b8290cbf1fab450709a.CPCG_0363_Pr_P_PE_691_WG_130906_SN203_0196_AC2D4DACXX_1_NoIndex_R2.fastq.gz", 
+    "file_size": 20880965956, 
+    "bundle_id": "EGAR00001254560", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
