@@ -1,0 +1,15 @@
+{
+  "task": "delete_encrypted_file", 
+  "depends_on": [
+    "completed@md5sum_check_decrypt.EGAF00000589315", 
+    "completed@download.EGAF00000589315"
+  ], 
+  "tool": "delete_file", 
+  "command": "delete_file.py", 
+  "input": {
+    "file": "/home/ubuntu/jtracker/worker.1495929492.43ffc35a.host.a6bedec0.10.10.0.241/job.EGAR00001222169.PRAD-CA.CPCG0391-B1.EGAN00001220790/task.download.EGAF00000589315/e66c86ce1559284b187c4848a1ee461d.CPCG_0391_Ly_R_PE_000_WG_140306_SN1325_0231_BC3VURACXX_sd-seq_L006_R2_001.fastq.gz"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
