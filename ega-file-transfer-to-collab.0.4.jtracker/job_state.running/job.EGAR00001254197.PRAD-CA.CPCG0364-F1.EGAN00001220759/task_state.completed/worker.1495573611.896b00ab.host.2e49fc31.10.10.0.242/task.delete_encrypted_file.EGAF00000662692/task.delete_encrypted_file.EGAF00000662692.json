@@ -6,6 +6,17 @@
   ], 
   "tool": "delete_file", 
   "command": "delete_file.py", 
+  "output": [
+    {
+      "task_info": "File removed", 
+      "worker_id": "worker.1495573611.896b00ab.host.2e49fc31.10.10.0.242", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1496051235, 
+        "task_stop": 1496051238
+      }
+    }
+  ], 
   "input": {
     "file": "/home/ubuntu/jtracker/worker.1495929768.18d23e48.host.2e49fc31.10.10.0.242/job.EGAR00001254197.PRAD-CA.CPCG0364-F1.EGAN00001220759/task.download.EGAF00000662692/a1deb4a9c1ee929dc69476c67dd20df8.CPCG_0364_Pr_P_PE_606_WG_140306_SN7001179_0170_AC3JAMACXX_6_NoIndex_R1.fastq.gz"
   }, 
