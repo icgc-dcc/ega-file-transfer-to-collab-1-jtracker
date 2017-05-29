@@ -3,6 +3,20 @@
   "depends_on": null, 
   "tool": "prepare_metadata_xml", 
   "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "e6a6fefb68c37b80f5fd9950548412a3", 
+      "xml_file_name": "bundle.EGAR00001250664.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1495929166.e77c536a.host.fee3ab23.10.10.0.240/job.EGAR00001250664.PRAD-CA.CPCG0201-F1.EGAN00001220646/task.prepare_metadata_xml/bundle.EGAR00001250664.xml", 
+      "xml_file_size": 7390, 
+      "worker_id": "worker.1495929166.e77c536a.host.fee3ab23.10.10.0.240", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1496036459, 
+        "task_stop": 1496036460
+      }
+    }
+  ], 
   "input": {
     "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170522", 
     "ega_metadata_file_name": "bundle.EGAR00001250664.xml", 
