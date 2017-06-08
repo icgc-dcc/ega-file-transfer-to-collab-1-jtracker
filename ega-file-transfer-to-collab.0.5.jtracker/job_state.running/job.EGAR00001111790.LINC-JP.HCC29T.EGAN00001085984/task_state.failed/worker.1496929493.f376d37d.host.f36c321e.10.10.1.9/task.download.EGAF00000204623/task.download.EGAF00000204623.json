@@ -3,6 +3,12 @@
   "depends_on": null, 
   "tool": "download", 
   "command": "download.py", 
+  "output": [
+    {
+      "worker_id": "worker.1496929493.f376d37d.host.f36c321e.10.10.1.9", 
+      "task_state": "failed"
+    }
+  ], 
   "input": {
     "file_name": "71d303254e54752e020879e2ab58cba3.HCC29T_ATCACG_L008_R1_048.fastq.bz2", 
     "file_md5sum": "71d303254e54752e020879e2ab58cba3", 
