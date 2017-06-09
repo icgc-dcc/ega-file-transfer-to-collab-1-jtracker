@@ -1,0 +1,28 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00000193561", 
+    "completed@md5sum_check_decrypt.EGAF00000193561"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "output": [
+    {
+      "task_info": "skip the bai generation!", 
+      "worker_id": "worker.1497015711.ae03172c.host.231181a3.10.10.1.7", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497018969, 
+        "task_stop": 1497018969
+      }
+    }
+  ], 
+  "input": {
+    "bam_file": "/home/ubuntu/jtracker/worker.1497015711.ae03172c.host.231181a3.10.10.1.7/job.EGAR00001106834.LINC-JP.BN02T.EGAN00001085930/task.decryption.EGAF00000193561/1b0102f1cbcb30add0fa30b5267b094f.BN02T_CGATGT_L002_R1_017.fastq.bz2", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
