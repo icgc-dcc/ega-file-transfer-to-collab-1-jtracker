@@ -1,0 +1,19 @@
+{
+  "task": "xml_file_upload", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "file_name": "bundle.EGAR00001110259.xml", 
+    "object_id": "0d99a378-59f5-54d2-85d0-c7f042bc18af", 
+    "file_md5sum": "{{xml_file_md5sum@prepare_metadata_xml}}", 
+    "file": "{{xml_file@prepare_metadata_xml}}", 
+    "file_size": "{{xml_file_size@prepare_metadata_xml}}", 
+    "bundle_id": "EGAR00001110259"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
