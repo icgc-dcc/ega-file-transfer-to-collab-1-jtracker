@@ -6,6 +6,17 @@
   ], 
   "tool": "delete_file", 
   "command": "delete_file.py", 
+  "output": [
+    {
+      "task_info": "File removed", 
+      "worker_id": "worker.1497031607.01035bc9.host.231181a3.10.10.1.7", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497064302, 
+        "task_stop": 1497064302
+      }
+    }
+  ], 
   "input": {
     "file": "/home/ubuntu/jtracker/worker.1497031607.01035bc9.host.231181a3.10.10.1.7/job.EGAR00001111648.LINC-JP.HCC29T.EGAN00001085984/task.download.EGAF00000204339/61e3dc415d4a52c67c01b8012c4cda82.HCC29T_ATCACG_L006_R1_019.fastq.bz2"
   }, 
