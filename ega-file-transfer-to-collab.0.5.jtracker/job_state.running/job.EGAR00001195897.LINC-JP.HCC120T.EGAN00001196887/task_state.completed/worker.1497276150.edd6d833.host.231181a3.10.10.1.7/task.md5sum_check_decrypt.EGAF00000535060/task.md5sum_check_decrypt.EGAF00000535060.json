@@ -5,6 +5,17 @@
   ], 
   "tool": "md5sum_check", 
   "command": "md5sum_check.py", 
+  "output": [
+    {
+      "task_info": "Pass md5sum check", 
+      "worker_id": "worker.1497276150.edd6d833.host.231181a3.10.10.1.7", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497291862, 
+        "task_stop": 1497291862
+      }
+    }
+  ], 
   "input": {
     "file_md5sum": "1d027064086928afaa44e77f05cd3d45", 
     "file": "/home/ubuntu/jtracker/worker.1497276150.edd6d833.host.231181a3.10.10.1.7/job.EGAR00001195897.LINC-JP.HCC120T.EGAN00001196887/task.decryption.EGAF00000535060/1d027064086928afaa44e77f05cd3d45.HCC120T_ACAGTG_L008_R1_017.fastq.bz2"
