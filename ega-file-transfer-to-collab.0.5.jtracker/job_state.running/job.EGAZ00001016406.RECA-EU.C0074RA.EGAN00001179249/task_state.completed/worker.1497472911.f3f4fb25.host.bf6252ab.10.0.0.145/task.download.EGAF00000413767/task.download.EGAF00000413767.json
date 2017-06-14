@@ -1,0 +1,31 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "file_name": "138c33add1f1d65c7dd87c680f49f3da.B00E4I9_accepted_hits.bam", 
+      "ega_file_id": "EGAF00000413767", 
+      "object_id": "23ea3f09-4a59-5f19-a454-965231ea7e53", 
+      "file_md5sum": "138c33add1f1d65c7dd87c680f49f3da", 
+      "worker_id": "worker.1497472911.f3f4fb25.host.bf6252ab.10.0.0.145", 
+      "file": "/data/jt_home/worker.1497472911.f3f4fb25.host.bf6252ab.10.0.0.145/job.EGAZ00001016406.RECA-EU.C0074RA.EGAN00001179249/task.download.EGAF00000413767/138c33add1f1d65c7dd87c680f49f3da.B00E4I9_accepted_hits.bam", 
+      "runtime": {
+        "task_start": 1497475297, 
+        "task_stop": 1497475797
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "138c33add1f1d65c7dd87c680f49f3da.B00E4I9_accepted_hits.bam", 
+    "file_md5sum": "138c33add1f1d65c7dd87c680f49f3da", 
+    "project_code": "RECA-EU", 
+    "object_id": "23ea3f09-4a59-5f19-a454-965231ea7e53", 
+    "ega_file_id": "EGAF00000413767"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
