@@ -1,0 +1,16 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "input": {
+    "file_name": "e15271938f05b8e7f08108391db07889.7567_4_52.bam", 
+    "file_md5sum": "e15271938f05b8e7f08108391db07889", 
+    "project_code": "CMDI-UK", 
+    "object_id": "910acd2d-5aa7-5dfe-a0a4-3c18d6c87f7f", 
+    "ega_file_id": "EGAF00000148544"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
