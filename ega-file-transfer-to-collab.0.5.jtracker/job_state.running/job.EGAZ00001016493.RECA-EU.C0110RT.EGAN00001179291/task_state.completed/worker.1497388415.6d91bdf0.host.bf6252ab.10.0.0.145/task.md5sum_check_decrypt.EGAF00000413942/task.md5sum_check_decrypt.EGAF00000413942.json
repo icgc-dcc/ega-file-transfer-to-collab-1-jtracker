@@ -5,6 +5,17 @@
   ], 
   "tool": "md5sum_check", 
   "command": "md5sum_check.py", 
+  "output": [
+    {
+      "task_info": "Pass md5sum check", 
+      "worker_id": "worker.1497388415.6d91bdf0.host.bf6252ab.10.0.0.145", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497481828, 
+        "task_stop": 1497481859
+      }
+    }
+  ], 
   "input": {
     "file_md5sum": "1fc49d2ad2818b4712510c28d120ff90", 
     "file": "/data/jt_home/worker.1497388415.6d91bdf0.host.bf6252ab.10.0.0.145/job.EGAZ00001016493.RECA-EU.C0110RT.EGAN00001179291/task.decryption.EGAF00000413942/1fc49d2ad2818b4712510c28d120ff90.B00EY14_accepted_hits.bam"
