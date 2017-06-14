@@ -1,0 +1,31 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "file_name": "d600d70cf9c87e832e2dfd3b5acdbd46.7549_4_93.bam", 
+      "ega_file_id": "EGAF00000147825", 
+      "object_id": "ef9dedac-950e-5d4b-83e8-0041e11f76b0", 
+      "file_md5sum": "d600d70cf9c87e832e2dfd3b5acdbd46", 
+      "worker_id": "worker.1497457984.3e359cf5.host.231181a3.10.10.1.7", 
+      "file": "/home/ubuntu/jtracker/worker.1497457984.3e359cf5.host.231181a3.10.10.1.7/job.EGAR00001079313.CMDI-UK.PD6336a.EGAN00001040126/task.download.EGAF00000147825/d600d70cf9c87e832e2dfd3b5acdbd46.7549_4_93.bam", 
+      "runtime": {
+        "task_start": 1497471771, 
+        "task_stop": 1497471867
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "d600d70cf9c87e832e2dfd3b5acdbd46.7549_4_93.bam", 
+    "file_md5sum": "d600d70cf9c87e832e2dfd3b5acdbd46", 
+    "project_code": "CMDI-UK", 
+    "object_id": "ef9dedac-950e-5d4b-83e8-0041e11f76b0", 
+    "ega_file_id": "EGAF00000147825"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
