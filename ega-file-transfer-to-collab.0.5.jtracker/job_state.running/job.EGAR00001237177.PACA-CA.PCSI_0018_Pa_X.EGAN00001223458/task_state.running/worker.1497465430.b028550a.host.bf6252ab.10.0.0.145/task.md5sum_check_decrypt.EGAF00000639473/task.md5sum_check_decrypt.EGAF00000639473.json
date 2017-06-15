@@ -1,0 +1,15 @@
+{
+  "task": "md5sum_check_decrypt", 
+  "depends_on": [
+    "completed@decryption.EGAF00000639473"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "input": {
+    "file_md5sum": "cd8d740f6d13b6249025f93fe5ffbf60", 
+    "file": "/data/jt_home/worker.1497465430.b028550a.host.bf6252ab.10.0.0.145/job.EGAR00001237177.PACA-CA.PCSI_0018_Pa_X.EGAN00001223458/task.decryption.EGAF00000639473/cd8d740f6d13b6249025f93fe5ffbf60.PCSI_0018_Pa_X_PE_364_EX_CAGATC_1_110630_SN203_0118_AC00FLACXX.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
