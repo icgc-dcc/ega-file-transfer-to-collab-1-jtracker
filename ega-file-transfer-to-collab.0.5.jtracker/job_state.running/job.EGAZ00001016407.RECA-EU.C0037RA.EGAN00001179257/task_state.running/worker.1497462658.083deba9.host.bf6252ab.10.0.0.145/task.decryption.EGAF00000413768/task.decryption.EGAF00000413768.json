@@ -1,0 +1,18 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000413768"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "input": {
+    "file_name": "ed6045819426913d9dbfc98e8e2640d4.B00E4IA_accepted_hits.bam", 
+    "file_md5sum": "ed6045819426913d9dbfc98e8e2640d4", 
+    "ega_file_id": "EGAF00000413768", 
+    "object_id": "b7cec707-32dc-55cb-92bf-b9639873715b", 
+    "input_file": "/data/jt_home/worker.1497388415.6d91bdf0.host.bf6252ab.10.0.0.145/job.EGAZ00001016407.RECA-EU.C0037RA.EGAN00001179257/task.download.EGAF00000413768/ed6045819426913d9dbfc98e8e2640d4.B00E4IA_accepted_hits.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
