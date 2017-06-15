@@ -6,6 +6,17 @@
   ], 
   "tool": "delete_file", 
   "command": "delete_file.py", 
+  "output": [
+    {
+      "task_info": "File removed", 
+      "worker_id": "worker.1497456162.2215da5f.host.231181a3.10.10.1.7", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497493341, 
+        "task_stop": 1497493359
+      }
+    }
+  ], 
   "input": {
     "file": "/home/ubuntu/jtracker/worker.1497456162.2215da5f.host.231181a3.10.10.1.7/job.EGAZ00001016382.RECA-EU.C0068RA.EGAN00001179232/task.download.EGAF00000413871/ce5fbc35a9f15681038fb45106e22b90.B00E4H9_accepted_hits.bam"
   }, 
