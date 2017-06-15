@@ -1,0 +1,16 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "input": {
+    "file_name": "3b02d187e94a3d94905c8f03e3d7a796.B00E4IP_accepted_hits.bam", 
+    "file_md5sum": "3b02d187e94a3d94905c8f03e3d7a796", 
+    "project_code": "RECA-EU", 
+    "object_id": "eedc622f-61ee-58f0-bab6-c3260771254e", 
+    "ega_file_id": "EGAF00000413803"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
