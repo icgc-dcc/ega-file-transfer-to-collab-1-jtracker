@@ -6,6 +6,17 @@
   ], 
   "tool": "delete_file", 
   "command": "delete_file.py", 
+  "output": [
+    {
+      "task_info": "File removed", 
+      "worker_id": "worker.1497462658.083deba9.host.bf6252ab.10.0.0.145", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497492430, 
+        "task_stop": 1497492448
+      }
+    }
+  ], 
   "input": {
     "file": "/data/jt_home/worker.1497462658.083deba9.host.bf6252ab.10.0.0.145/job.EGAR00001079766.CMDI-UK.PD5780a.EGAN00001039819/task.download.EGAF00000148278/9d469dffe0f354bbc7897ff7268ccbe2.7567_1_70.bam"
   }, 
