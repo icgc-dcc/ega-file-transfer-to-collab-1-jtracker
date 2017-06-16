@@ -6,6 +6,17 @@
   ], 
   "tool": "delete_file", 
   "command": "delete_file.py", 
+  "output": [
+    {
+      "task_info": "File removed", 
+      "worker_id": "worker.1497388415.6d91bdf0.host.bf6252ab.10.0.0.145", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497587729, 
+        "task_stop": 1497587755
+      }
+    }
+  ], 
   "input": {
     "file": "/data/jt_home/worker.1497465430.b028550a.host.bf6252ab.10.0.0.145/job.EGAR00001230019.PACA-CA.PCSI_0022_Pa_X.EGAN00001223420/task.download.EGAF00000612898/0697076a1ad392aae1245ae999f7aad6.PCSI_0022_Pa_X_PE_250_EX_NoIndex_8_100115_i278_61FW5_LT.bam"
   }, 
