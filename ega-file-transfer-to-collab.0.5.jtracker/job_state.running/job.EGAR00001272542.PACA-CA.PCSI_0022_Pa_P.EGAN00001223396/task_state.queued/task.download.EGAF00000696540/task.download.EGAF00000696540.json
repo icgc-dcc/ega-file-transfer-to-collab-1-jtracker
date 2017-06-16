@@ -1,0 +1,16 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "input": {
+    "file_name": "f01d28d48b316a06dd29a359d2b50d86.PCSI_0022_Pa_P_WT_PE_350_1_1_R2_merged.trimmed.fastq.gz", 
+    "file_md5sum": "f01d28d48b316a06dd29a359d2b50d86", 
+    "project_code": "PACA-CA", 
+    "object_id": "28f6e62c-6c76-567d-848f-c2eca072eed9", 
+    "ega_file_id": "EGAF00000696540"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
