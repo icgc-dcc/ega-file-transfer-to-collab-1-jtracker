@@ -1,0 +1,31 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "file_name": "5e782bd7c3b8e0d886eb4bc182a5ce5e.PCSI_0002_Ly_R_PE_250_EX_NoIndex_5_091228_i580_61E0C_LT.bam", 
+      "ega_file_id": "EGAF00000612889", 
+      "object_id": "784fd83f-77e3-588a-b8b6-8ebe7c995615", 
+      "file_md5sum": "5e782bd7c3b8e0d886eb4bc182a5ce5e", 
+      "worker_id": "worker.1497458029.2d5dd027.host.231181a3.10.10.1.7", 
+      "file": "/home/ubuntu/jtracker/worker.1497458029.2d5dd027.host.231181a3.10.10.1.7/job.EGAR00001230007.PACA-CA.PCSI_0002_Ly_R.EGAN00001223370/task.download.EGAF00000612889/5e782bd7c3b8e0d886eb4bc182a5ce5e.PCSI_0002_Ly_R_PE_250_EX_NoIndex_5_091228_i580_61E0C_LT.bam", 
+      "runtime": {
+        "task_start": 1497594940, 
+        "task_stop": 1497595152
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "5e782bd7c3b8e0d886eb4bc182a5ce5e.PCSI_0002_Ly_R_PE_250_EX_NoIndex_5_091228_i580_61E0C_LT.bam", 
+    "file_md5sum": "5e782bd7c3b8e0d886eb4bc182a5ce5e", 
+    "project_code": "PACA-CA", 
+    "object_id": "784fd83f-77e3-588a-b8b6-8ebe7c995615", 
+    "ega_file_id": "EGAF00000612889"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
