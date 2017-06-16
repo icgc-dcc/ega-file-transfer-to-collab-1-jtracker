@@ -1,0 +1,15 @@
+{
+  "task": "delete_encrypted_file", 
+  "depends_on": [
+    "completed@md5sum_check_decrypt.EGAF00000606217", 
+    "completed@download.EGAF00000606217"
+  ], 
+  "tool": "delete_file", 
+  "command": "delete_file.py", 
+  "input": {
+    "file": "/home/ubuntu/jtracker/worker.1497461404.75d8ac08.host.231181a3.10.10.1.7/job.EGAR00001229666.PACA-CA.PCSI_0007_Ly_R.EGAN00001223366/task.download.EGAF00000606217/546bfa386a4d09e2924d08082bab6d39.PCSI_0007_Ly_R_PE_300_EX_NoIndex_8_101014_I320_00020_709G8_AP.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
