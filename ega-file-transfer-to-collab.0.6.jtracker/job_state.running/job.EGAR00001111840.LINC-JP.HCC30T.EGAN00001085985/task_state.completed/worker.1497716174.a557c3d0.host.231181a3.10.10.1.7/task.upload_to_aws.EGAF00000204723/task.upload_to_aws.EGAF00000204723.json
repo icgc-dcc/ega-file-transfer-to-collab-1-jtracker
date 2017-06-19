@@ -7,6 +7,21 @@
   ], 
   "tool": "upload_to_aws", 
   "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "idx_file_md5sum": null, 
+      "idx_file": null, 
+      "file_md5sum": "c85fff7176b9da6039aeae0539ef3cde", 
+      "worker_id": "worker.1497716174.a557c3d0.host.231181a3.10.10.1.7", 
+      "file": "/home/ubuntu/jtracker/worker.1497716174.a557c3d0.host.231181a3.10.10.1.7/job.EGAR00001111840.LINC-JP.HCC30T.EGAN00001085985/task.decryption.EGAF00000204723/c85fff7176b9da6039aeae0539ef3cde.HCC30T_ATCACG_L007_R1_042.fastq.bz2", 
+      "file_size": 150335405, 
+      "runtime": {
+        "task_start": 1497834896, 
+        "task_stop": 1497834908
+      }
+    }
+  ], 
   "input": {
     "idx_file_md5sum": null, 
     "file_name": "c85fff7176b9da6039aeae0539ef3cde.HCC30T_ATCACG_L007_R1_042.fastq.bz2", 
