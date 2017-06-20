@@ -3,6 +3,12 @@
   "depends_on": null, 
   "tool": "download", 
   "command": "download.py", 
+  "output": [
+    {
+      "worker_id": "worker.1497976060.64003372.host.bf6252ab.10.0.0.145", 
+      "task_state": "failed"
+    }
+  ], 
   "input": {
     "file_name": "562e0dc015510216ac31625ee1d53186.HCC23T_CAGATC_L008_R2_029.fastq.bz2", 
     "file_md5sum": "562e0dc015510216ac31625ee1d53186", 
