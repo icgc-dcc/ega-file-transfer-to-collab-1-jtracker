@@ -7,6 +7,12 @@
   ], 
   "tool": "upload_to_aws", 
   "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "worker_id": "worker.1497977458.22c1a91d.host.231181a3.10.10.1.7", 
+      "task_state": "failed"
+    }
+  ], 
   "input": {
     "idx_file_md5sum": null, 
     "file_name": "b96abab0c65e3e7b952d21561e44ceee.HCC22T_CAGATC_L005_R1_006.fastq.bz2", 
