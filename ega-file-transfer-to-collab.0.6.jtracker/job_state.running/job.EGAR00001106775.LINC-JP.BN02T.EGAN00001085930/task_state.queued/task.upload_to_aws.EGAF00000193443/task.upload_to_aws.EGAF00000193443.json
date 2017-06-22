@@ -1,0 +1,23 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000193443", 
+    "completed@decryption.EGAF00000193443", 
+    "completed@download.EGAF00000193443"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": "{{idx_file_md5sum@generate_bai.EGAF00000193443}}", 
+    "file_name": "bd8649b8aa2b52a3f7e7c63d09c50a24.BN02T_CGATGT_L002_R1_013.fastq.bz2", 
+    "idx_file": "{{idx_file@generate_bai.EGAF00000193443}}", 
+    "object_id": "{{object_id@download.EGAF00000193443}}", 
+    "file_md5sum": "{{file_md5sum@download.EGAF00000193443}}", 
+    "file": "{{file@decryption.EGAF00000193443}}", 
+    "idx_object_id": "{{idx_object_id@generate_bai.EGAF00000193443}}", 
+    "idx_file_name": "{{idx_file_name@generate_bai.EGAF00000193443}}"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
