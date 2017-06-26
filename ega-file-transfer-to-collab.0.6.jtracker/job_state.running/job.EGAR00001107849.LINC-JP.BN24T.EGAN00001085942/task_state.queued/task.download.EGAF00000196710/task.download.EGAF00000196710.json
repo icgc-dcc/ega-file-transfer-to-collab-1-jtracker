@@ -1,0 +1,16 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "input": {
+    "file_name": "a7e37e23aaedc21ce5dd4372224202ad.BN24T_CTTGTA_L002_R1_009.fastq.bz2", 
+    "file_md5sum": "a7e37e23aaedc21ce5dd4372224202ad", 
+    "project_code": "LINC-JP", 
+    "object_id": "d54608b5-19c7-512f-84ca-7013792ad1ad", 
+    "ega_file_id": "EGAF00000196710"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
