@@ -5,6 +5,12 @@
   ], 
   "tool": "upload_to_aws", 
   "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "worker_id": "worker.1498672699.be59d471.host.dad50720.10.10.1.19", 
+      "task_state": "failed"
+    }
+  ], 
   "input": {
     "file_name": "bundle.EGAR00001107941.xml", 
     "object_id": "6263bf3a-e848-5265-ad2f-a9484c28c239", 
