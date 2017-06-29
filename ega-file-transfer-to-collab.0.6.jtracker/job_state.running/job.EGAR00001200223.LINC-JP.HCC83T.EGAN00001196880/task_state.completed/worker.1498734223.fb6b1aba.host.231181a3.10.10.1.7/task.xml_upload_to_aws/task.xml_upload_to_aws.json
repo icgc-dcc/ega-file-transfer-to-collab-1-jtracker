@@ -5,6 +5,21 @@
   ], 
   "tool": "upload_to_aws", 
   "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "idx_file_md5sum": null, 
+      "idx_file": null, 
+      "file_md5sum": "b5f3850a81c2dd2b59e59738d18b3397", 
+      "worker_id": "worker.1498734223.fb6b1aba.host.231181a3.10.10.1.7", 
+      "file": "/home/ubuntu/jtracker/worker.1498734223.fb6b1aba.host.231181a3.10.10.1.7/job.EGAR00001200223.LINC-JP.HCC83T.EGAN00001196880/task.prepare_metadata_xml/bundle.EGAR00001200223.xml", 
+      "file_size": 3507, 
+      "runtime": {
+        "task_start": 1498765303, 
+        "task_stop": 1498765308
+      }
+    }
+  ], 
   "input": {
     "file_name": "bundle.EGAR00001200223.xml", 
     "object_id": "107cbabb-f2a5-575d-9b2a-c1511a6a328b", 
