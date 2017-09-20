@@ -1,0 +1,35 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000658953", 
+    "completed@generate_bai.EGAF00000658953"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "output": [
+    {
+      "runtime": {
+        "task_start": 1495953838, 
+        "task_stop": 1495954412
+      }, 
+      "worker_id": "worker.1495831509.d211aa4a.host.0452ba76.10.10.0.249", 
+      "task_state": "completed"
+    }
+  ], 
+  "input": {
+    "idx_file_size": null, 
+    "idx_file_md5sum": null, 
+    "file_name": "7af7e21f618a96d85d23a605023de6d8.CPCG_0121_Pr_P_PE_829_WG_130410_h803_0117_BC0MWJACXX_2_NoIndex_R1.fastq.gz", 
+    "idx_file": null, 
+    "object_id": "8d8782a8-6ce7-5f0d-a775-724fd95e3e77", 
+    "file_md5sum": "7af7e21f618a96d85d23a605023de6d8", 
+    "file": "/home/ubuntu/jtracker/worker.1495855457.8adcb6f4.host.0452ba76.10.10.0.249/job.EGAR00001250787.PRAD-CA.CPCG0121-F1.EGAN00001239463/task.decryption.EGAF00000658953/7af7e21f618a96d85d23a605023de6d8.CPCG_0121_Pr_P_PE_829_WG_130410_h803_0117_BC0MWJACXX_2_NoIndex_R1.fastq.gz", 
+    "file_size": 21947516591, 
+    "bundle_id": "EGAR00001250787", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

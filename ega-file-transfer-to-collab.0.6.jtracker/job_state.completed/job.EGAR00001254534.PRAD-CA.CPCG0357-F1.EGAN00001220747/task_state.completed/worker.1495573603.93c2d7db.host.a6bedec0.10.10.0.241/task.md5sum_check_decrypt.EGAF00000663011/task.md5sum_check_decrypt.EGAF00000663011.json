@@ -1,0 +1,26 @@
+{
+  "task": "md5sum_check_decrypt", 
+  "depends_on": [
+    "completed@decryption.EGAF00000663011"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "output": [
+    {
+      "task_info": "Pass md5sum check", 
+      "worker_id": "worker.1495573603.93c2d7db.host.a6bedec0.10.10.0.241", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1496043152, 
+        "task_stop": 1496043203
+      }
+    }
+  ], 
+  "input": {
+    "file_md5sum": "fd549a1c1106a2f3ae89fafa00d3c752", 
+    "file": "/home/ubuntu/jtracker/worker.1495573603.93c2d7db.host.a6bedec0.10.10.0.241/job.EGAR00001254534.PRAD-CA.CPCG0357-F1.EGAN00001220747/task.decryption.EGAF00000663011/fd549a1c1106a2f3ae89fafa00d3c752.CPCG_0357_Pr_P_PE_641_WG_130906_SN804_0130_AC2D8JACXX_4_NoIndex_R2.fastq.gz"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

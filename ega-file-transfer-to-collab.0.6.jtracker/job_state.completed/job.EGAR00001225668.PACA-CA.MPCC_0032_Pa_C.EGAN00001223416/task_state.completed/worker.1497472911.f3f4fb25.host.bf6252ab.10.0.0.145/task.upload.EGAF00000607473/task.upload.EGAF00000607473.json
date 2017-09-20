@@ -1,0 +1,35 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000607473", 
+    "completed@generate_bai.EGAF00000607473"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "output": [
+    {
+      "runtime": {
+        "task_start": 1497614190, 
+        "task_stop": 1497615164
+      }, 
+      "worker_id": "worker.1497472911.f3f4fb25.host.bf6252ab.10.0.0.145", 
+      "task_state": "completed"
+    }
+  ], 
+  "input": {
+    "idx_file_size": null, 
+    "idx_file_md5sum": null, 
+    "file_name": "ff978e288a7ab4095b8f5e4ee8ddd588.MPCC_0032_Pa_C_PE_374_EX_NoIndex_3_120418_SN801_0072_AC0M13ACXX.bam", 
+    "idx_file": null, 
+    "object_id": "dd78e511-160c-5580-aceb-97d23ce738cc", 
+    "file_md5sum": "ff978e288a7ab4095b8f5e4ee8ddd588", 
+    "file": "/data/jt_home/worker.1497472911.f3f4fb25.host.bf6252ab.10.0.0.145/job.EGAR00001225668.PACA-CA.MPCC_0032_Pa_C.EGAN00001223416/task.decryption.EGAF00000607473/ff978e288a7ab4095b8f5e4ee8ddd588.MPCC_0032_Pa_C_PE_374_EX_NoIndex_3_120418_SN801_0072_AC0M13ACXX.bam", 
+    "file_size": 34327962117, 
+    "bundle_id": "EGAR00001225668", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "448779985964928b0a78684cb76e30f4", 
+      "xml_file_name": "bundle.EGAR00001266307.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1495573603.93c2d7db.host.a6bedec0.10.10.0.241/job.EGAR00001266307.LIHM-FR.CHC1091T.EGAN00001236039/task.prepare_metadata_xml/bundle.EGAR00001266307.xml", 
+      "xml_file_size": 5363, 
+      "worker_id": "worker.1495573603.93c2d7db.host.a6bedec0.10.10.0.241", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1495824949, 
+        "task_stop": 1495824950
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170522", 
+    "ega_metadata_file_name": "bundle.EGAR00001266307.xml", 
+    "ega_study_id": "EGAS00001001002", 
+    "ega_dataset_id": "EGAD00001001096", 
+    "ega_sample_id": "EGAN00001236039", 
+    "ega_expriment_id": null, 
+    "ega_analysis_id": null, 
+    "bundle_id": "EGAR00001266307", 
+    "project_code": "LIHM-FR", 
+    "ega_run_id": "EGAR00001266307"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

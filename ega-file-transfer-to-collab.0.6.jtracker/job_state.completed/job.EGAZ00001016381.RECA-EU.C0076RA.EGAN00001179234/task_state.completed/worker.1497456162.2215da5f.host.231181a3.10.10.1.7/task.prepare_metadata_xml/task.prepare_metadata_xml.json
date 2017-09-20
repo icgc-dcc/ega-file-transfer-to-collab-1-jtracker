@@ -1,0 +1,35 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "5018cb124ecae348ac107f86563dc24b", 
+      "xml_file_name": "bundle.EGAZ00001016381.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1497456162.2215da5f.host.231181a3.10.10.1.7/job.EGAZ00001016381.RECA-EU.C0076RA.EGAN00001179234/task.prepare_metadata_xml/bundle.EGAZ00001016381.xml", 
+      "xml_file_size": 9247, 
+      "worker_id": "worker.1497456162.2215da5f.host.231181a3.10.10.1.7", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497471385, 
+        "task_stop": 1497471404
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170522", 
+    "ega_metadata_file_name": "bundle.EGAZ00001016381.xml", 
+    "ega_study_id": "EGAS00001000083", 
+    "ega_dataset_id": "EGAD00001000719", 
+    "ega_sample_id": "EGAN00001179234", 
+    "ega_analysis_id": "EGAZ00001016381", 
+    "ega_experiment_id": null, 
+    "bundle_id": "EGAZ00001016381", 
+    "project_code": "RECA-EU", 
+    "ega_run_id": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

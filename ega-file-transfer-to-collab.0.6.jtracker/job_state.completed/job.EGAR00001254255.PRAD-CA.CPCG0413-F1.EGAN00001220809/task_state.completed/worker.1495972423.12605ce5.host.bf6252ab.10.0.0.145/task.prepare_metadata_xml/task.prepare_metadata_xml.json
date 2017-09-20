@@ -1,0 +1,35 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "212bcc221c63d8b69551814c49dc25b9", 
+      "xml_file_name": "bundle.EGAR00001254255.xml", 
+      "xml_file": "/data/jt_home/worker.1495972423.12605ce5.host.bf6252ab.10.0.0.145/job.EGAR00001254255.PRAD-CA.CPCG0413-F1.EGAN00001220809/task.prepare_metadata_xml/bundle.EGAR00001254255.xml", 
+      "xml_file_size": 7506, 
+      "worker_id": "worker.1495972423.12605ce5.host.bf6252ab.10.0.0.145", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1496083702, 
+        "task_stop": 1496083703
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170522", 
+    "ega_metadata_file_name": "bundle.EGAR00001254255.xml", 
+    "ega_study_id": "EGAS00001000900", 
+    "ega_dataset_id": "EGAD00001001094", 
+    "ega_sample_id": "EGAN00001220809", 
+    "ega_expriment_id": null, 
+    "ega_analysis_id": null, 
+    "bundle_id": "EGAR00001254255", 
+    "project_code": "PRAD-CA", 
+    "ega_run_id": "EGAR00001254255"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

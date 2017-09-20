@@ -1,0 +1,29 @@
+{
+  "task": "xml_file_upload", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "output": [
+    {
+      "runtime": {
+        "task_start": 1496007628, 
+        "task_stop": 1496007644
+      }, 
+      "worker_id": "worker.1495929166.e77c536a.host.fee3ab23.10.10.0.240", 
+      "task_state": "completed"
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001254530.xml", 
+    "object_id": "222aca97-a973-56d0-8dff-07c551849ab7", 
+    "file_md5sum": "8daa1525df8bd41c985237b9739a64b6", 
+    "file": "/home/ubuntu/jtracker/worker.1495929166.e77c536a.host.fee3ab23.10.10.0.240/job.EGAR00001254530.PRAD-CA.CPCG0356-F1.EGAN00001220745/task.prepare_metadata_xml/bundle.EGAR00001254530.xml", 
+    "file_size": 7506, 
+    "bundle_id": "EGAR00001254530"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "task": "delete_encrypted_file", 
+  "depends_on": [
+    "completed@md5sum_check_decrypt.EGAF00000610464", 
+    "completed@download.EGAF00000610464"
+  ], 
+  "tool": "delete_file", 
+  "command": "delete_file.py", 
+  "output": [
+    {
+      "task_info": "File removed", 
+      "worker_id": "worker.1497465430.b028550a.host.bf6252ab.10.0.0.145", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497570612, 
+        "task_stop": 1497570630
+      }
+    }
+  ], 
+  "input": {
+    "file": "/data/jt_home/worker.1497388415.6d91bdf0.host.bf6252ab.10.0.0.145/job.EGAR00001229028.PACA-CA.PCSI_0044_Ly_R.EGAN00001223336/task.download.EGAF00000610464/cf83b3e33f3681425926e438b9636ff1.PCSI_0044_Ly_R_PE_359_EX_GCCAAT_4_110630_SN203_0118_AC00FLACXX.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

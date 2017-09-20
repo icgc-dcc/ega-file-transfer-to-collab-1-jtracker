@@ -1,0 +1,35 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "793e56f46e3be398bd2d94a50a0fd8f4", 
+      "xml_file_name": "bundle.EGAR00001225865.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1497458029.2d5dd027.host.231181a3.10.10.1.7/job.EGAR00001225865.PACA-CA.PCSI_0049_Pa_X.EGAN00001224013/task.prepare_metadata_xml/bundle.EGAR00001225865.xml", 
+      "xml_file_size": 3638, 
+      "worker_id": "worker.1497458029.2d5dd027.host.231181a3.10.10.1.7", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497622417, 
+        "task_stop": 1497622437
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170522", 
+    "ega_metadata_file_name": "bundle.EGAR00001225865.xml", 
+    "ega_study_id": "EGAS00001000395", 
+    "ega_dataset_id": "EGAD00001001095", 
+    "ega_sample_id": "EGAN00001224013", 
+    "ega_analysis_id": null, 
+    "ega_experiment_id": "EGAX00001213416", 
+    "bundle_id": "EGAR00001225865", 
+    "project_code": "PACA-CA", 
+    "ega_run_id": "EGAR00001225865"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

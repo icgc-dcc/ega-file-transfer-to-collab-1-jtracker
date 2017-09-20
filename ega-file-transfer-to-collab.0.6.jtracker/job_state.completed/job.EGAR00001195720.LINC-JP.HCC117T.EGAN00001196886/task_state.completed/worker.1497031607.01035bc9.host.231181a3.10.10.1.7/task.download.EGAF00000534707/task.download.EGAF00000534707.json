@@ -1,0 +1,31 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "task_state": "completed", 
+      "file_name": "b53ad96c0bf15dd12df5bbcd432a5337.HCC117T_ACAGTG_L005_R2_059.fastq.bz2", 
+      "ega_file_id": "EGAF00000534707", 
+      "object_id": "8297271f-2efa-5560-895a-6f0379f1e539", 
+      "file_md5sum": "b53ad96c0bf15dd12df5bbcd432a5337", 
+      "worker_id": "worker.1497031607.01035bc9.host.231181a3.10.10.1.7", 
+      "file": "/home/ubuntu/jtracker/worker.1497031607.01035bc9.host.231181a3.10.10.1.7/job.EGAR00001195720.LINC-JP.HCC117T.EGAN00001196886/task.download.EGAF00000534707/b53ad96c0bf15dd12df5bbcd432a5337.HCC117T_ACAGTG_L005_R2_059.fastq.bz2", 
+      "runtime": {
+        "task_start": 1497142992, 
+        "task_stop": 1497143008
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "b53ad96c0bf15dd12df5bbcd432a5337.HCC117T_ACAGTG_L005_R2_059.fastq.bz2", 
+    "file_md5sum": "b53ad96c0bf15dd12df5bbcd432a5337", 
+    "project_code": "LINC-JP", 
+    "object_id": "8297271f-2efa-5560-895a-6f0379f1e539", 
+    "ega_file_id": "EGAF00000534707"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

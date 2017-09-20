@@ -1,0 +1,29 @@
+{
+  "task": "xml_file_upload", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "output": [
+    {
+      "runtime": {
+        "task_start": 1497457095, 
+        "task_stop": 1497457140
+      }, 
+      "worker_id": "worker.1497456162.2215da5f.host.231181a3.10.10.1.7", 
+      "task_state": "completed"
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAZ00001016486.xml", 
+    "object_id": "970c8033-459b-552b-acf7-c02414f796bb", 
+    "file_md5sum": "90d84e175cd13c7b7cc7ad500883b32e", 
+    "file": "/home/ubuntu/jtracker/worker.1497456162.2215da5f.host.231181a3.10.10.1.7/job.EGAZ00001016486.RECA-EU.C0013RA.EGAN00001179230/task.prepare_metadata_xml/bundle.EGAZ00001016486.xml", 
+    "file_size": 9245, 
+    "bundle_id": "EGAZ00001016486"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

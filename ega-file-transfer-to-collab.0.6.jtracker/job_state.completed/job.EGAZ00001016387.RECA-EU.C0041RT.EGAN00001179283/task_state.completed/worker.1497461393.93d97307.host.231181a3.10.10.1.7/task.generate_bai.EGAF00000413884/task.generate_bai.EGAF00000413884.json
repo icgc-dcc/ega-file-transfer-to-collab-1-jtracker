@@ -1,0 +1,32 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00000413884", 
+    "completed@md5sum_check_decrypt.EGAF00000413884"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "output": [
+    {
+      "idx_file_size": 2748008, 
+      "idx_file_md5sum": "4d27830485bfd6baa30995d7bb872ee6", 
+      "idx_file": "/home/ubuntu/jtracker/worker.1497461393.93d97307.host.231181a3.10.10.1.7/job.EGAZ00001016387.RECA-EU.C0041RT.EGAN00001179283/task.generate_bai.EGAF00000413884/ca2ad77fc3ff3e6a3c991242a6be6a27.B00E4HG_accepted_hits.bam.bai", 
+      "worker_id": "worker.1497461393.93d97307.host.231181a3.10.10.1.7", 
+      "task_state": "completed", 
+      "idx_object_id": "5162dc19-4cec-5d7c-9161-c763df4a5035", 
+      "runtime": {
+        "task_start": 1497471262, 
+        "task_stop": 1497471362
+      }, 
+      "idx_file_name": "ca2ad77fc3ff3e6a3c991242a6be6a27.B00E4HG_accepted_hits.bam.bai"
+    }
+  ], 
+  "input": {
+    "bam_file": "/home/ubuntu/jtracker/worker.1497458014.d12357c8.host.231181a3.10.10.1.7/job.EGAZ00001016387.RECA-EU.C0041RT.EGAN00001179283/task.decryption.EGAF00000413884/ca2ad77fc3ff3e6a3c991242a6be6a27.B00E4HG_accepted_hits.bam", 
+    "idx_object_id": "5162dc19-4cec-5d7c-9161-c763df4a5035", 
+    "idx_file_name": "ca2ad77fc3ff3e6a3c991242a6be6a27.B00E4HG_accepted_hits.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

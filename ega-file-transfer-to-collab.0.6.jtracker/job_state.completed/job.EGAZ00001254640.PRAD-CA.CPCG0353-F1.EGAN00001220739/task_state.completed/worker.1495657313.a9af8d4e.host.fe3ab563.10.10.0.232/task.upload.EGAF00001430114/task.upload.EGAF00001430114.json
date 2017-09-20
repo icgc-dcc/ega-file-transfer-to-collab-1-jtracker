@@ -1,0 +1,39 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00001430114", 
+    "completed@generate_bai.EGAF00001430114"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "output": [
+    {
+      "worker_id": "worker.1495293425.67f724b5.host.fe3ab563.10.10.0.232", 
+      "task_state": "failed"
+    }, 
+    {
+      "runtime": {
+        "task_start": 1495657316, 
+        "task_stop": 1495663702
+      }, 
+      "worker_id": "worker.1495657313.a9af8d4e.host.fe3ab563.10.10.0.232", 
+      "task_state": "completed"
+    }
+  ], 
+  "input": {
+    "idx_file_size": 9069960, 
+    "idx_file_md5sum": "679db65682fa86a0db82d0903a1e4c58", 
+    "file_name": "1afd0ab6b5b03aa874b4e7157dcc7651.CPCG0353-F1.bam", 
+    "idx_file": "/home/ubuntu/jtracker/worker.1495293425.67f724b5.host.fe3ab563.10.10.0.232/job.EGAZ00001254640.PRAD-CA.CPCG0353-F1.EGAN00001220739/task.generate_bai.EGAF00001430114/1afd0ab6b5b03aa874b4e7157dcc7651.CPCG0353-F1.bam.bai", 
+    "object_id": "37680684-e24d-5014-a599-e8dd50a9fdce", 
+    "file_md5sum": "1afd0ab6b5b03aa874b4e7157dcc7651", 
+    "file": "/home/ubuntu/jtracker/worker.1495293425.67f724b5.host.fe3ab563.10.10.0.232/job.EGAZ00001254640.PRAD-CA.CPCG0353-F1.EGAN00001220739/task.decryption.EGAF00001430114/1afd0ab6b5b03aa874b4e7157dcc7651.CPCG0353-F1.bam", 
+    "file_size": 383408170678, 
+    "bundle_id": "EGAZ00001254640", 
+    "idx_object_id": "9d7ab86e-194c-5af2-84cf-4965e882ebcf", 
+    "idx_file_name": "1afd0ab6b5b03aa874b4e7157dcc7651.CPCG0353-F1.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

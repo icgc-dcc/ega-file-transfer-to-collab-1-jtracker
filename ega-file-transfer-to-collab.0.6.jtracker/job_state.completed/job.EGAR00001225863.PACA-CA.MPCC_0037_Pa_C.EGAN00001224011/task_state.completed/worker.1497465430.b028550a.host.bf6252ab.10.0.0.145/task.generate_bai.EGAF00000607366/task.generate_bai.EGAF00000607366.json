@@ -1,0 +1,28 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00000607366", 
+    "completed@md5sum_check_decrypt.EGAF00000607366"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "output": [
+    {
+      "task_info": "skip the bai generation!", 
+      "worker_id": "worker.1497465430.b028550a.host.bf6252ab.10.0.0.145", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1497632682, 
+        "task_stop": 1497632701
+      }
+    }
+  ], 
+  "input": {
+    "bam_file": "/data/jt_home/worker.1497465430.b028550a.host.bf6252ab.10.0.0.145/job.EGAR00001225863.PACA-CA.MPCC_0037_Pa_C.EGAN00001224011/task.decryption.EGAF00000607366/e7692591723e54a7b2abee454575fd7a.MPCC_0037_Pa_C_PE_437_EX_NoIndex_5_120719_h803_0091_AD132CACXX.bam", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
