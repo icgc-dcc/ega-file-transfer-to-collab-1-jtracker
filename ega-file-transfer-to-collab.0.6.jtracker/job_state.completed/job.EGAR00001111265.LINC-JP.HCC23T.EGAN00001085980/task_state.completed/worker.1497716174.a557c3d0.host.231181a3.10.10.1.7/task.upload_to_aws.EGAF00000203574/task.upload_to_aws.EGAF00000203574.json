@@ -9,17 +9,17 @@
   "command": "upload_to_aws.py", 
   "output": [
     {
-      "task_state": "completed", 
-      "idx_file_md5sum": null, 
-      "idx_file": null, 
-      "file_md5sum": "2f62bcec42bd1852f344ab607453ac79", 
-      "worker_id": "worker.1497716174.a557c3d0.host.231181a3.10.10.1.7", 
-      "file": "/home/ubuntu/jtracker/worker.1497716174.a557c3d0.host.231181a3.10.10.1.7/job.EGAR00001111265.LINC-JP.HCC23T.EGAN00001085980/task.decryption.EGAF00000203574/2f62bcec42bd1852f344ab607453ac79.HCC23T_CAGATC_L006_R2_046.fastq.bz2", 
-      "file_size": 127244519, 
       "runtime": {
         "task_start": 1497804323, 
         "task_stop": 1497804337
-      }
+      }, 
+      "file_md5sum": "2f62bcec42bd1852f344ab607453ac79", 
+      "idx_file": null, 
+      "idx_file_md5sum": null, 
+      "worker_id": "worker.1497716174.a557c3d0.host.231181a3.10.10.1.7", 
+      "file": "/home/ubuntu/jtracker/worker.1497716174.a557c3d0.host.231181a3.10.10.1.7/job.EGAR00001111265.LINC-JP.HCC23T.EGAN00001085980/task.decryption.EGAF00000203574/2f62bcec42bd1852f344ab607453ac79.HCC23T_CAGATC_L006_R2_046.fastq.bz2", 
+      "file_size": 127244519, 
+      "task_state": "completed"
     }
   ], 
   "input": {
@@ -29,6 +29,7 @@
     "object_id": "4fe4ebe8-d318-55ec-ad2a-0585f5be7f8f", 
     "file_md5sum": "2f62bcec42bd1852f344ab607453ac79", 
     "file": "/home/ubuntu/jtracker/worker.1497716174.a557c3d0.host.231181a3.10.10.1.7/job.EGAR00001111265.LINC-JP.HCC23T.EGAN00001085980/task.decryption.EGAF00000203574/2f62bcec42bd1852f344ab607453ac79.HCC23T_CAGATC_L006_R2_046.fastq.bz2", 
+    "file_size": 127244519, 
     "idx_object_id": null, 
     "idx_file_name": null
   }, 
