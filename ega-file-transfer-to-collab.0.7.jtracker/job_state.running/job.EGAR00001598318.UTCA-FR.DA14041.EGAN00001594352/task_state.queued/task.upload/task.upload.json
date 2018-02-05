@@ -1,0 +1,29 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@download", 
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "files": [
+      {
+        "file_name": "7b6fb92bf43952060672ab75de1478b9.ls2729_C6LFLANXX_6_27nf.ua.bam", 
+        "ega_file_id": "EGAF00001757610", 
+        "object_id": "f649b453-739b-5fda-84fb-7c06690dc31d", 
+        "file_md5sum": "7b6fb92bf43952060672ab75de1478b9", 
+        "file_size": "50335838896", 
+        "idx_object_id": null, 
+        "idx_file_name": null
+      }
+    ], 
+    "input_dir": "{{out_dir@prepare_metadata_xml}}", 
+    "library_strategy": "WGS", 
+    "donor_id": null, 
+    "paired_end": "True"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
